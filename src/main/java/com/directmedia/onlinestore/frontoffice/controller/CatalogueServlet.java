@@ -40,8 +40,7 @@ public class CatalogueServlet extends HttpServlet {
             Artist mainArtist = new Artist();
             mainArtist.setName("mainArtist" + i);
 
-            Work work = new Work();
-            work.setId(((long)i));
+            Work work = new Work(((long)i));
             work.setTitle("work" + i);
             work.setGenre("rap" + i);
             work.setRelease((1234 * i));

@@ -1,2 +1,2 @@
-com\directmedia\onlinestore\frontoffice\controller\HomeServlet.class
+com\directmedia\onlinestore\frontoffice\controller\CatalogueServlet.class
 com\directmedia\onlinestore\frontoffice\controller\WorkDetailsServlet.class
